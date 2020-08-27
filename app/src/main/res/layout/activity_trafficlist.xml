@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:fillViewport="true"
+        android:layout_marginTop="0dp"
+        android:id="@+id/scrollView"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/namhaebus1"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                />
+
+            <ImageView
+                android:id="@+id/namhaebus2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/namhaebus2"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                />
+
+            <ImageView
+                android:id="@+id/namhaebus3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/namhaebus3"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                />
+
+            <ImageView
+                android:id="@+id/namhaebus4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/namhaebus4"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
